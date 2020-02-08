@@ -1,0 +1,11 @@
+===================================================================
+Description:
+The numbers... what do they mean?
+Hint:The flag is in the format PICOCTF{}
+
+file: 42 9 3 15 3 20 6 { 20 8 5 14 21 13 2 5 18 19 13 1 19 15 14 }
+===================================================================
+
+I made a script for this challenge,so let's run it!
+
+<code>python3 decrypt_message.py</code>
