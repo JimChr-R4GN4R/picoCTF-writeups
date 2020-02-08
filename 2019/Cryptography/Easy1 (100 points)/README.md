@@ -8,4 +8,8 @@ The one time pad can be cryptographically secure, but not when you know the key.
 
 # Journey
 
-From the table I wanted to try if it's vigenere cipher. So I made a found a good script and found the flag
+From the table I wanted to try if it's vigenere cipher. So I found a good script and found the flag!
+
+<code>python3 script.py</code>
+
+Flag: PICOCTF{CRYPTOISFUN}
