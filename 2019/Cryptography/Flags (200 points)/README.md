@@ -1,7 +1,7 @@
 # Description:
 What do the flags.png mean?
 
-flags.png download --> https://2019shell1.picoctf.com/static/ae23b7df04365ab0213f0158c5b5d694/flag.png
+flags.png download --> https://kuhi.to/wp-content/uploads/2019/10/flag-1024x683.png
 
 # Hints:
 The flag is in the format PICOCTF{}
