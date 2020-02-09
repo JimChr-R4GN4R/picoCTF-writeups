@@ -2,7 +2,16 @@
 
 # importing necessary libraries 
 import json
-import reverse_geocoder as rg 
+from subprocess import call
+
+
+try:
+    import reverse_geocoder as rg 
+except:
+    print("I will install reverse_geocoder module...")
+    print("################################# INSTALLING #################################")
+    install_reverse_geocoder = call("pip3 install reverse_geocoder", shell=True)
+    print("################################# INSTALLED #################################")
 
 # Put here your cords.
 cords = '(35.028309, 135.753082)(46.469391, 30.740883)(39.758949, -84.191605)(41.015137, 28.979530)(24.466667, 54.366669)(3.140853, 101.693207)_(9.005401, 38.763611)(-3.989038, -79.203560)(52.377956, 4.897070)(41.085651, -73.858467)(57.790001, -152.407227)(31.205753, 29.924526)'
@@ -37,40 +46,44 @@ for i in range(0, num_of_cords): # repeat until all coordinates are covered.
         #########################################
 
 
-        #########################################################################
-                                                                              ####### Print results
-        print("Lat:",result_json[0]['lat'])###                                ###
+        ############################################################################
+                                                                                 ####### Print results
+        print("Lat:",result_json[0]['lat'])###                                   ###
                                             #### Print current cords
         print("Lon:",result_json[0]['lon'])###
         
-        
-        if result_json[0]['name'] == "":
-            print("Name: <None>")
-        else:
-            print("Name:",result_json[0]['name'])
+        ###################################################
+        if result_json[0]['name'] == "":                 ##
+            print("Name: <None>")                        ##
+        else:                                            ##
+            print("Name:",result_json[0]['name'])        ##
+        ###################################################
 
 
+        ###################################################
+        if result_json[0]['admin1'] == "":               ##
+            print("Admin1: <None>")                      ##
+        else:                                            ##
+            print("Admin1:",result_json[0]['admin1'])    ##
+        ###################################################
 
-        if result_json[0]['admin1'] == "":
-            print("Admin1: <None>")
-        else:
-            print("Admin1:",result_json[0]['admin1'])
+        ###################################################
+        if result_json[0]['admin2'] == "":               ##
+            print("Admin2: <None>")                      ##
+        else:                                            ##
+            print("Admin2:",result_json[0]['admin2'])    ##
+        ###################################################
 
+        ###################################################
+        if result_json[0]['cc'] == "":                   ##
+            print("CC: <None>")                          ##
+        else:                                            ##
+            print("CC:",result_json[0]['cc'])            ##                              
+        ###################################################
 
-
-        if result_json[0]['admin2'] == "":
-            print("Admin2: <None>")
-        else:
-            print("Admin2:",result_json[0]['admin2'])
-
-
-
-        if result_json[0]['cc'] == "":
-            print("CC: <None>")
-        else:
-            print("CC:",result_json[0]['cc'])                                 ###
-                                                                              ###
-        #########################################################################
+                                                                                 ###
+                                                                                 ###
+        ############################################################################
 
 
     # Driver function 
