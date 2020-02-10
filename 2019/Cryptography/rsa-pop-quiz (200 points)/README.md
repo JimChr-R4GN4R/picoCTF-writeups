@@ -29,11 +29,11 @@ IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
 It want us to find n variable.
 
-After a bit, I found that n = q*p
+After a bit, I found that n = q * p
 
 So type 'y' and write the n
 
-n = q*p = 60413*76753 = 4636878989
+n = q * p = 60413 * 76753 = 4636878989
 
 So write '4636878989'
 
@@ -94,9 +94,9 @@ IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
 We have p and q and we need to find totient(n) [or φ(n) or phi(n) ]
 
-phi(n) = (p - 1)*(q - 1)
+phi(n) = (p - 1) * (q - 1)
 
-phi(n) = (12611 - 1)*(66347 - 1)
+phi(n) = (12611 - 1) * (66347 - 1)
 
 phi(n) = 12610*66346
 
