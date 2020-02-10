@@ -118,3 +118,8 @@ ciphertext
 IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
 #############################################################################################
+
+Now it starts to get ap bit harder. It want's us to encrypt the plaintext with e and n.
+
+After some research I found that <code> c = m ^ e mod n </code>
+
