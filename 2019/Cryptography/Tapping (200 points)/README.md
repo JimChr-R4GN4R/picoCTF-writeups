@@ -7,8 +7,8 @@ Theres tapping coming in from the wires. What's it saying <code>nc 2019shell1.pi
 
 # Juorney
 
-If we execute <code>nc 2019shell1.picoctf.com 21897 in terminal, we get this:
-.--. .. -.-. --- -.-. - ..-. { -- ----- .-. ... ...-- -.-. ----- -.. ...-- .---- ... ..-. ..- -. .---- ---.. .---- ---.. ..--- ..--- ....- ..... --... ..... }
+If we execute <code>nc 2019shell1.picoctf.com 21897</code> in terminal, we get this:
+<code>.--. .. -.-. --- -.-. - ..-. { -- ----- .-. ... ...-- -.-. ----- -.. ...-- .---- ... ..-. ..- -. .---- ---.. .---- ---.. ..--- ..--- ....- ..... --... ..... }</code>
 
 This is clearly MORSE
 
