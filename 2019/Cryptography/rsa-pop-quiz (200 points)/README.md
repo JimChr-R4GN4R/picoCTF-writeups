@@ -31,11 +31,12 @@ It want us to find n variable.
 
 After a bit, I found that n = q * p
 
-So type 'y' and write the n
+
 
 n = q * p = 60413 * 76753 = 4636878989
 
-So write '4636878989'
+So type <code>y<code> and write the <code>4636878989</code>
+
 
 
 Next it says this:
@@ -55,7 +56,7 @@ IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
 From the previous step,we see that q = n/p = 5051846941/54269 = 93089
 
-So type 'Y' and write '93089'
+So type <code>Y</code> and write <code>93089</code>
 
 
 Next step say:
@@ -75,7 +76,7 @@ IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
 #############################################################################################
 
-Now we have e and n and need to find q and p which is not possible, so type 'n' and continue.
+Now we have e and n and need to find q and p which is not possible, so type <code>n</code> and continue.
 
 Next step says:
 
@@ -100,7 +101,7 @@ phi(n) = 12610*66346
 
 phi(n) = 836623060
 
-So type 'y' and write '836623060'
+So type <code>y</code> and write <code>836623060</code>
 
 Next step says:
 
@@ -126,4 +127,9 @@ After some research I found that <code> c = m ^ e mod n </code> ( c = ciphertext
 Now cause of the really big numbers we need finally the help of python3 !!!!
 
 I made a script after some time to calculate ciphertext,so let's run it!
+
 <code>python3 pl-e-n_ciphertext.py</code>
+
+When done with the calculations, I finally got the ciphertext:
+<code>256931246631782714357241556582441991993437399854161372646318659020994329843524306570818293602492485385337029697819837182169818816821461486018802894936801257629375428544752970630870631166355711254848465862207765051226282541748174535990314552471546936536330397892907207943448897073772015986097770443616540466471245438117157152783246654401668267323136450122287983612851171545784168132230208726238881861407976917850248110805724300421712827401063963117423718797887144760360749619552577176382615108244813</code>
+
