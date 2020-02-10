@@ -8,7 +8,8 @@ I found this cipher in an old book. Can you figure out what it says? Connect wit
 # Journey
 
 When we execute the command in terminal,we get this text:
-<code>Ne iy nytkwpsznyg nth it mtsztcy vjzprj zfzjy rkhpibj nrkitt ltc tnnygy ysee itd tte cxjltk
+<code>
+  Ne iy nytkwpsznyg nth it mtsztcy vjzprj zfzjy rkhpibj nrkitt ltc tnnygy ysee itd tte cxjltk
 
 Ifrosr tnj noawde uk siyyzre, yse Bnretèwp Cousex mls hjpn xjtnbjytki xatd eisjd
 
