@@ -239,9 +239,7 @@ Added to script these commands to do it:
 
 <code>
 plaintext_hex_converted = hex(plaintext).split('x')[-1] # convert plaintext to hex
-
 plaintext_from_hex_to_ascii = bytearray.fromhex(plaintext_hex_converted).decode() # convert hex to ascii
-
 print("\nDecoded plaintext:",plaintext_from_hex_to_ascii)
 </code>
 
