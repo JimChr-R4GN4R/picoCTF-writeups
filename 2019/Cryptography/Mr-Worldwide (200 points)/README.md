@@ -14,4 +14,22 @@ So let's try it!
 <code>python3 script.py</code> (it needs reverse_geocoder module.If you do not have it,then it will install it for you.
 If something goes wrong,then try in your terminal type <code>pip3 install reverse_geocoder</code> and then run the script).
 
+When finish,we copy the first letter of every name and we get this:
+K from Kamigyo-ku
+O from Odessa
+D from Dayton
+I from Istanbul (Name says 'Eminoeunue',but at Admin1 says Istanbul and chose to use this one.)
+A from Abu Dhabi
+K from Kuala Lumpur
+A from Addis Ababa
+L from Loja
+A from Amsterdam
+S from Sleepy Hollow
+K from Kodiak
+A from Alexandria
 
+So we have KODIAKALASKA, but if we read message text,we see that he uses a '_' , so let's add it to it's right place.
+So we have KODIAK_ALASKA !
+
+
+Flag: picoCTF{KODIAK_ALASKA}
