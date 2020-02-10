@@ -134,7 +134,7 @@ IS THIS POSSIBLE and FEASIBLE? (Y/N):
                                                                                           
 Now it starts to get ap bit harder. It want's us to encrypt the plaintext with e and n.
 
-After some research I found that <code> c = m ^ e mod n </code> ( c = ciphertext , m = plaintext message )
+After some research I found that <code> c = (m ^ e)MODn </code> ( c = ciphertext , m = plaintext message )
 
 Now cause of the really big numbers we need finally the help of python3 !!!!
 
@@ -165,5 +165,5 @@ IS THIS POSSIBLE and FEASIBLE? (Y/N):
 #############################################################################################____
 
 So here it wants us to find d and we have q,p (so we can calculate phi) and e.
-After a while I found that <code>d = ( e^(-1) ) mod phi</code>
+After a while I found that <code>d = (  (e^(-1) )MODphi</code>
 We type <code>Y</code> and I made a quick code to find our d by first calculating <code>phi = q * p</code> and then it calculates d
