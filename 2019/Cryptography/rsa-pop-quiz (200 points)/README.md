@@ -11,6 +11,7 @@ We see clearly that the challegne has to do with RSA encryption.Let's begin!
 So if we execute the command in temrinal, we get this at first:
 
 #############################################################################################
+
                                                                                           ###
                                                                                           
 Good morning class! It's me Ms. Adleman-Shamir-Rivest
@@ -27,6 +28,7 @@ n
 IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
                                                                                           ###
+                                                                                          
 #############################################################################################
 
 It want us to find n variable.
@@ -44,6 +46,7 @@ So type <code>y</code> and write the <code>4636878989</code>
 Next it says this:
 
 #############################################################################################
+
                                                                                           ###
                                                                                           
 #### NEW PROBLEM ####
@@ -56,6 +59,7 @@ q
 IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
                                                                                           ###
+                                                                                          
 #############################################################################################
 
 From the previous step,we see that q = n/p = 5051846941/54269 = 93089
@@ -66,6 +70,7 @@ So type <code>Y</code> and write <code>93089</code>
 Next step say:
 
 #############################################################################################
+
                                                                                           ###
                                                                                           
 #### NEW PROBLEM ####
@@ -80,6 +85,7 @@ p
 IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
                                                                                           ###
+                                                                                          
 #############################################################################################
 
 Now we have e and n and need to find q and p which is not possible, so type <code>n</code> and continue.
@@ -96,6 +102,7 @@ totient(n)
 IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
 #############################################################################################
+
                                                                                           ###
 
 We have p and q and we need to find totient(n) [or φ(n) or phi(n) ]
@@ -113,6 +120,7 @@ So type <code>y</code> and write <code>836623060</code>
 Next step says:
 
                                                                                           ###
+                                                                                          
 #############################################################################################
 
 #### NEW PROBLEM ####
@@ -127,6 +135,7 @@ ciphertext
 IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
                                                                                           ###
+                                                                                          
 #############################################################################################
 
                                                                                           
