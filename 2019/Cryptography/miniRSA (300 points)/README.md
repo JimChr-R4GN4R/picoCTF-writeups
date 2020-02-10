@@ -22,3 +22,4 @@ ciphertext (c): 2205316413931134031074603746928247799030155221252519872649604243
 
 # Journey
 
+After some research I found that if <code>plaintext ^ e < n</code>, then plaintext = ciphertext ^ e
