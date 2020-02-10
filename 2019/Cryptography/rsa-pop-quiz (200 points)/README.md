@@ -11,7 +11,8 @@ We see clearly that the challegne has to do with RSA encryption.Let's begin!
 So if we execute the command in temrinal, we get this at first:
 
 #############################################################################################
-
+                                                                                          ###
+                                                                                          
 Good morning class! It's me Ms. Adleman-Shamir-Rivest
 Today we will be taking a pop quiz, so I hope you studied. Cramming just will not do!
 You will need to tell me if each example is possible, given your extensive crypto knowledge.
@@ -25,6 +26,7 @@ n
 
 IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
+                                                                                          ###
 #############################################################################################
 
 It want us to find n variable.
@@ -42,7 +44,8 @@ So type <code>y</code> and write the <code>4636878989</code>
 Next it says this:
 
 #############################################################################################
-
+                                                                                          ###
+                                                                                          
 #### NEW PROBLEM ####
 p : 54269
 
@@ -52,6 +55,7 @@ q
 
 IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
+                                                                                          ###
 #############################################################################################
 
 From the previous step,we see that q = n/p = 5051846941/54269 = 93089
@@ -62,7 +66,8 @@ So type <code>Y</code> and write <code>93089</code>
 Next step say:
 
 #############################################################################################
-
+                                                                                          ###
+                                                                                          
 #### NEW PROBLEM ####
 e : 3
 
@@ -74,6 +79,7 @@ p
 
 IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
+                                                                                          ###
 #############################################################################################
 
 Now we have e and n and need to find q and p which is not possible, so type <code>n</code> and continue.
@@ -90,6 +96,7 @@ totient(n)
 IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
 #############################################################################################
+                                                                                          ###
 
 We have p and q and we need to find totient(n) [or φ(n) or phi(n) ]
 
@@ -105,6 +112,7 @@ So type <code>y</code> and write <code>836623060</code>
 
 Next step says:
 
+                                                                                          ###
 #############################################################################################
 
 #### NEW PROBLEM ####
@@ -118,8 +126,10 @@ ciphertext
 
 IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
+                                                                                          ###
 #############################################################################################
 
+                                                                                          
 Now it starts to get ap bit harder. It want's us to encrypt the plaintext with e and n.
 
 After some research I found that <code> c = m ^ e mod n </code> ( c = ciphertext , m = plaintext message )
