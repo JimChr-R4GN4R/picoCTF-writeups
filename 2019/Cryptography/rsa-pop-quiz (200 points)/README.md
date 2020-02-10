@@ -167,4 +167,7 @@ IS THIS POSSIBLE and FEASIBLE? (Y/N):
 So here it wants us to find d and we have q,p (so we can calculate phi) and e.
 
 After a while I found that <code>d = ( e^(-1) )MOD phi</code>
-We type <code>Y</code> and I made a quick code to find our d by first calculating <code>phi = q * p</code> and then it calculates d
+We type <code>Y</code> and I made a quick code to find our d by first calculating <code>phi = q * p</code> and then it calculates d.
+So let's run it!
+
+<code>python3 p-q-e_d.py</code>
