@@ -185,7 +185,8 @@ So here it wants us to find d and we have q,p (so we can calculate phi) and e.
 After a while I found that <code>d = ( e^(-1) )MOD phi</code>
 We type <code>Y</code> and I made a quick code to find our d by first calculating <code>phi = q * p</code> and then it calculates d.
 
-So let's run it!
+So type <code>Y</code>
+and let's run it!
 
 <code>python3 p-q-e_d.py</code>
 
@@ -221,4 +222,29 @@ and then,we can find <code>d = e**(-1)MOD phi(n)</code>
 
 So we have everything we need.
 So it is possible to find it, so type <code>Y</code>
-and 
+
+and and let's run our script!
+
+<code>python3 p-ct-e-n-_q-_phi-_d_pl.py</code>
+
+And we got our plaintext:
+
+<code>14311663942709674867122208214901970650496788151239520971623411712977119642137567031494784893</code>
+
+When write it and press enter we take this message:
+
+<code>If you convert the last plaintext to a hex number, then ascii, you'll find what you need! ;)</code>
+
+Added to script these commands to do it:
+
+<code>
+plaintext_hex_converted = hex(plaintext).split('x')[-1] # convert plaintext to hex
+
+plaintext_from_hex_to_ascii = bytearray.fromhex(plaintext_hex_converted).decode() # convert hex to ascii
+
+print("\nDecoded plaintext:",plaintext_from_hex_to_ascii)
+</code>
+
+So let's give one more try to the updated script!
+
+Flag: picoCTF{wA8_th4t$_ill3aGal..o1828d357}
