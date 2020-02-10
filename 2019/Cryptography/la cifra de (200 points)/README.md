@@ -36,7 +36,7 @@ hgqqpohzCZK{m311a50_0x_a1rn3x3_h1ah3xg6ndl651}
 
 - From the title, we see Italian
 
-Let's try caecar cipher!
+Let's try caesar cipher!
 
 Tried it with no luck...
 
