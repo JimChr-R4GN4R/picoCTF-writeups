@@ -58,7 +58,7 @@ IS THIS POSSIBLE and FEASIBLE? (Y/N):
                                                                                           
 #############################################################################################____
 
-From the previous step,we see that q = n/p = 5051846941/54269 = 93089
+From the previous step,we see that q = n//p = 5051846941//54269 = 93089
 
 So type <code>Y</code> and write <code>93089</code>
 
@@ -211,7 +211,7 @@ IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
 #############################################################################################____
 
-So here we want plaintext and we have p,ciphertext,e and n. From p and n,we can find <code>q = n/p</code> . 
+So here we want plaintext and we have p,ciphertext,e and n. From p and n,we can find <code>q = n//p</code> . 
 
 After some research found that plaintext = ( ciphertext ^ d )MOD n
 
