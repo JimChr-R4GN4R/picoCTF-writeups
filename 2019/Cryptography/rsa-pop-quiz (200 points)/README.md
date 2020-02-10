@@ -73,3 +73,21 @@ p
 IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
 #############################################################################################
+
+Now we have e and n and need to find q and p which is not possible, so type 'n' and continue.
+
+Next step says:
+
+#### NEW PROBLEM ####
+q : 66347
+
+p : 12611
+##### PRODUCE THE FOLLOWING ####
+totient(n)
+
+IS THIS POSSIBLE and FEASIBLE? (Y/N):
+
+#############################################################################################
+
+We have p and q and we need to find totient(n) [or φ(n) or phi(n) ]
+
