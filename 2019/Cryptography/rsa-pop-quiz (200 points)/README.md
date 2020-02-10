@@ -12,12 +12,11 @@ So if we execute the command in temrinal, we get this at first:
 
 #############################################################################################
 
-                                                                                          ###
-                                                                                          
+</code>                                                                                          
 Good morning class! It's me Ms. Adleman-Shamir-Rivest
 Today we will be taking a pop quiz, so I hope you studied. Cramming just will not do!
 You will need to tell me if each example is possible, given your extensive crypto knowledge.
-Inputs and outputs are in decimal. No hex here!
+<code>Inputs and outputs are in decimal. No hex here!
 #### NEW PROBLEM ####
 q : 60413
 
@@ -27,8 +26,7 @@ n
 
 IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
-                                                                                          ###
-                                                                                          
+</code>                                                                                          
 #############################################################################################
 
 It want us to find n variable.
@@ -47,8 +45,7 @@ Next it says this:
 
 #############################################################################################
 
-                                                                                          ###
-                                                                                          
+<code></code>                                                                                          
 #### NEW PROBLEM ####
 p : 54269
 
@@ -58,8 +55,7 @@ q
 
 IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
-                                                                                          ###
-                                                                                          
+</code>                                                                                          
 #############################################################################################
 
 From the previous step,we see that q = n/p = 5051846941/54269 = 93089
@@ -71,8 +67,7 @@ Next step say:
 
 #############################################################################################
 
-                                                                                          ###
-                                                                                          
+<code></code>                                                                                          
 #### NEW PROBLEM ####
 e : 3
 
@@ -84,14 +79,13 @@ p
 
 IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
-                                                                                          ###
-                                                                                          
+</code>                                                                                          
 #############################################################################################
 
 Now we have e and n and need to find q and p which is not possible, so type <code>n</code> and continue.
 
 Next step says:
-
+<code>
 #### NEW PROBLEM ####
 q : 66347
 
@@ -103,8 +97,7 @@ IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
 #############################################################################################
 
-                                                                                          ###
-
+</code>
 We have p and q and we need to find totient(n) [or φ(n) or phi(n) ]
 
 phi(n) = (p - 1) * (q - 1)
@@ -119,10 +112,9 @@ So type <code>y</code> and write <code>836623060</code>
 
 Next step says:
 
-                                                                                          ###
-                                                                                          
+</code>                                                                                          
 #############################################################################################
-
+<code>
 #### NEW PROBLEM ####
 plaintext : 6357294171489311547190987615544575133581967886499484091352661406414044440475205342882841236357665973431462491355089413710392273380203038793241564304774271529108729717
 
@@ -134,8 +126,7 @@ ciphertext
 
 IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
-                                                                                          ###
-                                                                                          
+</code>                                                                                          
 #############################################################################################
 
                                                                                           
