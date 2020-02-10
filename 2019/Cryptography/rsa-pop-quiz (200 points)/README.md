@@ -125,3 +125,5 @@ After some research I found that <code> c = m ^ e mod n </code> ( c = ciphertext
 
 Now cause of the really big numbers we need finally the help of python3 !!!!
 
+I made a script after some time to calculate ciphertext,so let's run it!
+<code>python3 pl-e-n_ciphertext.py</code>
