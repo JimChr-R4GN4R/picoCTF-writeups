@@ -93,7 +93,7 @@ for i in range(0, num_of_cords): # repeat until all coordinates are covered.
                                                                                  ###
         ############################################################################
 
-        print (Final_text)
+        
     # Driver function 
     if __name__=="__main__": 
         
