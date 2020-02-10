@@ -35,7 +35,7 @@ After a bit, I found that n = q * p
 
 n = q * p = 60413 * 76753 = 4636878989
 
-So type <code>y<code> and write the <code>4636878989</code>
+So type <code>y</code> and write the <code>4636878989</code>
 
 
 
