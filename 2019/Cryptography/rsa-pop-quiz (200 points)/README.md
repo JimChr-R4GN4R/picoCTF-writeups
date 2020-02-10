@@ -91,3 +91,12 @@ IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
 We have p and q and we need to find totient(n) [or φ(n) or phi(n) ]
 
+phi(n) = (p - 1)*(q - 1)
+
+phi(n) = (12611 - 1)*(66347 - 1)
+
+phi(n) = 12610*66346
+
+phi(n) = 836623060
+
+So type 'y' and write '836623060'
