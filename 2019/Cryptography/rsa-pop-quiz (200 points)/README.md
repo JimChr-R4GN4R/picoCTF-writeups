@@ -163,3 +163,7 @@ d
 IS THIS POSSIBLE and FEASIBLE? (Y/N):
 
 #############################################################################################____
+
+So here it wants us to find d and we have q,p (so we can calculate phi) and e.
+After a while I found that <code>d = ( e^(-1) ) mod phi</code>
+We type <code>Y</code> and I made a quick code to find our d by first calculating <code>phi = q * p</code> and then it calculates d
