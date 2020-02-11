@@ -26,6 +26,8 @@ I have this in my mind:
 
 So made a script which has c and n as they are and d = e an e = 65537 .
 
+<code>python3 script.py</code>
+
 Then I took this result:
 
 <code>21080685081069964473082305196627941617916360794538080598701001685774196707802021420599447319326438641309183316151500199397018050465310263386685754092586122949472119359718409454263607539312233937774479046689650192679866322996028947025390436621034818643291374760370590905271397655813455314797251907586367434783</code>
@@ -42,7 +44,7 @@ MTTIFRT'ldÀ¶\F¢-@¤E"lÛ¬E¡G
   
 And I see that this is not the flag... Yeyyy  \\-_-/
 
-Then tried to switch e with d, so plaintext = pow(c,e,n) , and followed the same steps.
+Then tried to switch e with d, so <code>plaintext = pow(c,e,n)</code> , and followed the same steps.
 
 And guess... For some reason it worked (^_^') . One of CTFs' part is luck ;)
 
