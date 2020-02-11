@@ -40,7 +40,7 @@ and then from hex to ascii:
 MTTIFRT'ldÀ¶\F¢-@¤E"lÛ¬E¡G
 Ù©øläaÓëõ+òÖ	â»«n>g*½ØýEÖKá9^/²[<0</code>
   
-And I see that this is not the flag... Yeyyy  \-_-/
+And I see that this is not the flag... Yeyyy  \\-_-/
 
 Then tried to switch e with d, so plaintext = pow(c,e,n) , and followed the same steps.
 
