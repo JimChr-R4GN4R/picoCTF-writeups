@@ -27,3 +27,5 @@ After some research I found that if <code>plaintext ^ e < n</code>, then <code>c
 So I made a quick script which checks via the variables if the vulnerability is available,and if it is,then it find the flag,so let's run it!
 
 <code>python3 script.py</code>
+
+Flag: picoCTF{n33d_a_lArg3r_e_1dcea0a2}
