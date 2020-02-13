@@ -39,7 +39,7 @@ K from Kodiak
 
 A from Alexandria
 
-So we have KODIAKALASKA, but if we read message text,we see that he uses a '_' , so let's add it to it's right place.
+So we have KODIAKALASKA, but if we read message text,we see that it has a '_' , so let's add it to it's right place.
 So we have KODIAK_ALASKA !
 
 
