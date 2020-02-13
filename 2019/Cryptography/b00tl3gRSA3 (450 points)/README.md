@@ -36,12 +36,31 @@ After few days of trying, I decided to check old RSA writeups.Luckily I found th
 <code>https://github.com/Dvd848/CTFs/blob/master/2018_picoCTF/Super%20Safe%20RSA%203.md</code>
 
 which is realy similar with this one. When read it, I realied that I should multiply all the factors to find phi.
-So I made a script which multiply all the factors
+So I made a script which multiply all the factors and put them in phi variable:
 
 <code>
 phi = 1
  
-phi \*= (factors_list\[l] - 1) # phi = phi * (p - 1)  | factors_list has Ps and Qs
+phi \*= (factors_list\[l] - 1) # phi = phi * (p - 1)
 </code>
 
-and put them in phi variable and from there I find d and then the plaintext 
+and then I find d:
+
+<code>
+
+d = inverse(e, phi)
+
+</code>
+
+and finaly the plaintext:
+
+<code>
+
+print(long_to_bytes(pow(c, d, n)).decode()) # convert from dec to hex and then to ascii
+
+</code>
+
+So let's run it!
+<code>python3 c-n-e_-phi_-d-_plaintext.py</code>
+
+Flag: picoCTF{too_many_fact0rs_6566973}
