@@ -34,4 +34,14 @@ The thing is that these are many factors and I did not knew what to do with them
 
 After few days of trying, I decided to check old RSA writeups.Luckily I found this:
 <code>https://github.com/Dvd848/CTFs/blob/master/2018_picoCTF/Super%20Safe%20RSA%203.md</code>
-which is realy similar with this one. When 
+
+which is realy similar with this one. When read it, I realied that I should multiply all the factors to find phi.
+So I made a script which multiply all the factors
+
+<code>
+phi = 1
+ 
+phi \*= (factors_list\[l] - 1) # phi = phi * (p - 1)  | factors_list has Ps and Qs
+</code>
+
+and put them in phi variable and from there I find d and then the plaintext 
