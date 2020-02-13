@@ -50,7 +50,7 @@ and then I find d:
 
 and finaly the plaintext:
 
-<code>print(long_to_bytes(pow(c, d, n)).decode()) # convert from dec to hex and then to asciι</code>
+<code>print(long_to_bytes(pow(c, d, n)).decode()) # convert from dec to hex and then to ascii</code>
 
 So let's run it!
 <code>python3 c-n-e_-phi_-d-_plaintext.py</code>
