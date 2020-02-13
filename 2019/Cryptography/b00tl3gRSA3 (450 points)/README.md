@@ -46,19 +46,11 @@ phi \*= (factors_list\[l] - 1) # phi = phi * (p - 1)
 
 and then I find d:
 
-<code>
-
-d = inverse(e, phi)
-
-</code>
+<code>d = inverse(e, phi)</code>
 
 and finaly the plaintext:
 
-<code>
-
-print(long_to_bytes(pow(c, d, n)).decode()) # convert from dec to hex and then to ascii
-
-</code>
+<code>print(long_to_bytes(pow(c, d, n)).decode()) # convert from dec to hex and then to asciι</code>
 
 So let's run it!
 <code>python3 c-n-e_-phi_-d-_plaintext.py</code>
