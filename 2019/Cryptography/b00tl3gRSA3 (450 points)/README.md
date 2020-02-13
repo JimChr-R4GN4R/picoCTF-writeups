@@ -20,7 +20,7 @@ e: 65537
 
 ###########################################################################################
 
-First thought was to find p,q then phi ( phi = (p - 1) * ( q - 1 ) ) and last d <code>( d = e^(-1) MOD phi )</code>.
+First thought was to find p,q then phi <code>( phi = (p - 1) * ( q - 1 ) )</code> and last d <code>( d = e^(-1) MOD phi )</code>.
 
 So tried to factor n with this great tool --> <code>https://www.alpertron.com.ar/ECM.HTM</code> to find p and q via the factors but it gives this result:
 
