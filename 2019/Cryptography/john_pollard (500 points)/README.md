@@ -1,25 +1,40 @@
 # Description:
 Sometimes RSA certificates are breakable
 
-Certificate:
-
------BEGIN CERTIFICATE-----
-MIIB6zCB1AICMDkwDQYJKoZIhvcNAQECBQAwEjEQMA4GA1UEAxMHUGljb0NURjAe
-Fw0xOTA3MDgwNzIxMThaFw0xOTA2MjYxNzM0MzhaMGcxEDAOBgNVBAsTB1BpY29D
-VEYxEDAOBgNVBAoTB1BpY29DVEYxEDAOBgNVBAcTB1BpY29DVEYxEDAOBgNVBAgT
-B1BpY29DVEYxCzAJBgNVBAYTAlVTMRAwDgYDVQQDEwdQaWNvQ1RGMCIwDQYJKoZI
-hvcNAQEBBQADEQAwDgIHEaTUUhKxfwIDAQABMA0GCSqGSIb3DQEBAgUAA4IBAQAH
-al1hMsGeBb3rd/Oq+7uDguueopOvDC864hrpdGubgtjv/hrIsph7FtxM2B4rkkyA
-eIV708y31HIplCLruxFdspqvfGvLsCynkYfsY70i6I/dOA6l4Qq/NdmkPDx7edqO
-T/zK4jhnRafebqJucXFH8Ak+G6ASNRWhKfFZJTWj5CoyTMIutLU9lDiTXng3rDU1
-BhXg04ei1jvAf0UrtpeOA6jUyeCLaKDFRbrOm35xI79r28yO8ng1UAzTRclvkORt
-b8LMxw7e+vdIntBGqf7T25PLn/MycGPPvNXyIsTzvvY/MXXJHnAqpI5DlqwzbRHz
-q16/S1WLvzg4PsElmv1f
------END CERTIFICATE-----
-
+Certificate is in Certificate.txt in the folder
 # Hints:
 - The flag is in the format picoCTF{p,q}
 - Try swapping p and q if it does not work
 
 # Journey
 
+So opened terminal and typed <code>openssl x509 -in cert -text -noout</code>
+
+We care for this:
+
+######################################################
+
+Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (53 bit)
+                Modulus: 4966306421059967 (0x11a4d45212b17f)
+                Exponent: 65537 (0x10001)
+    Signature Algorithm: md2WithRSAEncryption
+    
+######################################################
+
+From here we retrieve <code>n = 4966306421059967</code> and <code>e = 65537</code>
+
+With the help of https://www.alpertron.com.ar/ECM.HTM we can easily find p and q
+
+<code>p = 67867967</code>
+
+<code>q = 73176001</code>
+
+So from the hints we see that flag is picoCTF{p,q} !
+
+So puted picoCTF{67867967,73176001} but didn't work.
+
+So just switched p and q.
+
+Flag: picoCTF{73176001,67867967}
