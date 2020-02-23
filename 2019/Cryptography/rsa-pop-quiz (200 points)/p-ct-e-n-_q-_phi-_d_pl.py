@@ -1,5 +1,7 @@
 # If you know n,p,e and ciphertext and want to find and decrypt plaintext,this script is for you ;)
 
+# Required library : pycryptodome
+
 from Crypto.Util.number import inverse
 from Crypto.Util.number import long_to_bytes
 
