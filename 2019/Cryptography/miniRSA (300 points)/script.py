@@ -5,7 +5,7 @@ try:
 except:
     print("I will install gmpy2 module...")
     print("################################# INSTALLING #################################")
-    install_reverse_geocoder = call("sudo apt-get install python3-gmpy2", shell=True)
+    install_gmpy2 = call("sudo apt-get install python3-gmpy2", shell=True)
     print("################################# INSTALLED #################################")
 
 
