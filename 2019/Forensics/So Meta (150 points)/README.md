@@ -12,7 +12,7 @@ So I opened terminal and typed <code>exiftool pico_img.png</code> and got this:
 
 /////////////////////////////////////////////////////////////////////////////
 
-ExifTool Version Number         : 11.16
+ExifTool Version Number         : 11.16\n
 File Name                       : pico_img.png
 Directory                       : .
 File Size                       : 106 kB
