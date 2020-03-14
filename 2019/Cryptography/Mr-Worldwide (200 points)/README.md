@@ -15,6 +15,7 @@ So let's try it!
 If something goes wrong,then try in your terminal type <code>pip3 install reverse_geocoder</code> and then run the script).
 
 When finish,we copy the first letter of every name and we get this:
+
 K from Kamigyo-ku
 
 O from Odessa
