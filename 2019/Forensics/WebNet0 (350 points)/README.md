@@ -71,7 +71,7 @@ ETag: "5ff-58fee50dc3fb0-gzip"
 Accept-Ranges: bytes
 Vary: Accept-Encoding
 Content-Encoding: gzip
-Pico-Flag: `picoCTF{nongshim.shrimp.crackers}`
+Pico-Flag: picoCTF{nongshim.shrimp.crackers}
 Content-Length: 821
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
