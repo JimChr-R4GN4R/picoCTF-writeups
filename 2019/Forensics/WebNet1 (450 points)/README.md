@@ -9,7 +9,7 @@ You can also find the file in /problems/webnet1_0_d63b267c607b8fedbae100068e0104
 - Try using a tool like Wireshark
 - How can you decrypt the TLS stream?
 
-#############################################################################
+# Journey:
 
 (This challenge is like WebNet0)
 
