@@ -8,15 +8,11 @@ e = 65537
  
 n_factors = "8865 023599 × 8895 222257 × 8906 680087 × 8942 036561 × 9232 986701 × 9698 406533 × 9845 071829 × 10204 713359 × 10254 526433 × 10677 505151 × 10893 443047 × 11178 642829 × 11618 890061 × 12308 356519 × 12378 849811 × 12418 086097 × 12689 374807 × 12868 219289 × 13594 056127 × 13713 998279 × 13749 759701 × 14214 123367 × 14401 600729 × 14990 258813 × 15075 630931 × 15241 400543 × 15816 772721 × 15928 218569 × 16065 897671 × 16252 022953 × 16289 930567 × 16342 707947 × 17029 421369 × 17109 252703".replace(" ", "").replace('*','×').split("×") # copy the results from https://www.alpertron.com.ar/ECM.HTM by factoring n
 
-factors_list = []
 phi = 1
-l = 0
 
 for i in n_factors: # At every loop, i is equal with every n's factor
-
-	factors_list.append(int(i)) # add n factors in factors_list array converted to intigers
 	
-	phi *= (factors_list[l] - 1) # phi = phi * (p - 1)  | factors_list has Ps and Qs
+	phi *= (int(i) - 1) # phi = phi * (p - 1)
 	
 	d = inverse(e, phi) # d = e^(-1) MOD phi
 	
@@ -27,10 +23,9 @@ for i in n_factors: # At every loop, i is equal with every n's factor
 	#print("\033[0m############################")   ##
 	##################################################
 	
-	l += 1 # l = l + 1
-
 
 print(long_to_bytes(pow(c, d, n)).decode()) # convert from decimal to hex and then to ascii
 
 ################################## Useful sources for the script ##################################
 #https://github.com/Dvd848/CTFs/blob/master/2018_picoCTF/Super%20Safe%20RSA%203.md
+
