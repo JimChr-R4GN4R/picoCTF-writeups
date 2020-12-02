@@ -19,9 +19,9 @@ ciphertext = 2205316413931134031074603746928247799030155221252519872649602375643
 
 plaintext = gmpy2.root(ciphertext, e)
 
-plaintext_2 = pow(plaintext,e)
+test_pl = pow(plaintext,e)
 
-if (plaintext_2 == ciphertext):
+if (test_pl == ciphertext):
     print("This vulnerability is working with these variables!\n")
     print(long_to_bytes(plaintext).decode())
 else:
