@@ -22,7 +22,7 @@ ciphertext (c): 2205316413931134031074603746928247799030155221252519872649604243
 
 # Journey
 
-After some research I found that if <code>plaintext ^ e < n</code>, then <code>ciphertext = plaintext ^ e mod n</code> which <code>n = plaintext ^ e</code>.
+After some research I found that if <code>plaintext ^ e < n</code>, then <code>ciphertext = plaintext ^ e mod n</code> which <code>n = plaintext ^ e</code>. That means that `eth` root of `ciphertext` is equal to `plaintext`.
   
 So I made a quick script which checks via the variables if the vulnerability is available,and if it is,then it find the flag,so let's run it!
 
