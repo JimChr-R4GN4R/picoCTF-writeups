@@ -17,12 +17,12 @@ n = 2933192249979498578273597604559116493668305938055895038656016010574034320151
 e = 3
 ciphertext = 2205316413931134031074603746928247799030155221252519872649602375643231006596573791863783976856797977916843724727388379790172135717557077760267874464115099065405422557746246682213987550407899612567166189989232143975665175662662107329564517
 
-plaintext = gmpy2.root(ciphertext, e)
+flag = gmpy2.root(ciphertext, e)
 
 test_pl = pow(plaintext,e)
 
 if (test_pl == ciphertext):
     print("This vulnerability is working with these variables!\n")
-    print(long_to_bytes(plaintext).decode())
+    print(long_to_bytes(flag).decode())
 else:
     print("This vulnerability is not working with these variables :(")
